@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+.grid {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid > div {
+    flex-basis: calc(50% - 40px);
+}
